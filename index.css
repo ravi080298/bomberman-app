@@ -1,0 +1,36 @@
+body{
+    background-image: radial-gradient(circle, rgb(28, 9, 80), rgb(151, 151, 72), rgb(7, 53, 7));
+}
+.container{
+    text-align: center;
+  }
+  .grid-container{
+    display:grid;
+     grid-template-columns : repeat(9, auto);
+     width: 250px;
+     margin: 50px auto;
+  }
+  .cell {
+      font-family: "Permanent Marker", cursive;
+      width: 25px;
+      height: 25px;
+      box-shadow: 0 0 0 1px #333333;
+      border: 1px solid #333333;
+      cursor: pointer;
+      line-height: 100px;
+      font-size: 60px;
+      border-color:white;
+    }
+.center{
+    text-align: center;
+    color: yellow;
+}
+button{
+    background-color: green;
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
